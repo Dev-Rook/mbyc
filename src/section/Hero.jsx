@@ -7,6 +7,10 @@ import styles from "../styles/section-styles/hero.module.scss";
 import HeroBanner from "../components/HeroBanner";
 import SocialBar from "../components/SocialBar";
 
+// Media Import:
+import Ez from "../assets/images/Ez.jpeg"
+import manCigar from "../assets/images/man_cigar.jpeg"
+
 const Hero = () => {
   const bannerImg = ``;
   const bannerVid = ``;
@@ -24,7 +28,7 @@ const Hero = () => {
           beatae minus nostrum sequi quibusdam blanditiis, asperiores alias?
         </p>
       </div>
-      <HeroBanner img={bannerImg} vide={bannerVid} />
+      <HeroBanner img={manCigar} vide={bannerVid} />
       <SocialBar />
     </div>
   );

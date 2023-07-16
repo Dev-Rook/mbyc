@@ -65,7 +65,7 @@ const ServiceSlider = ({
         {services?.map((value) => {
           return (
             <SwiperSlide className={styles.slide} key={value.id}>
-              <Link to={value.link} className={styles.link} key={value.id}>
+              <Link to={value.route} className={styles.link} key={value.id}>
                 <div className={styles.icon}></div>
                 <div className={styles.imgContainer}>
                   <img src={value.image} alt="" className={styles.img} />
