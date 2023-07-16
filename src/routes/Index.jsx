@@ -8,7 +8,7 @@ import Hero from "../section/Hero";
 import ServicesGrid from "../section/ServicesGrid";
 
 // Media Import:
-import chop from "../assets/images/Round-Hill-Breakers.JPG"
+import chop from "../assets/images/Round-Hill-Breakers.jpg"
 
 const Index = () => {
   return (
