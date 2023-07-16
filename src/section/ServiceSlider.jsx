@@ -4,10 +4,15 @@ import { Link } from "react-router-dom";
 // Styles Import:
 import styles from "../styles/section-styles/serviceSlider.module.scss";
 
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, FreeMode, Autoplay, Mousewheel, Pagination } from "swiper/modules";
+import {
+  Navigation,
+  FreeMode,
+  Autoplay,
+  Mousewheel,
+  Pagination,
+} from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -17,9 +22,17 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 // import "swiper/css/effect-fade ";
 
-const ServiceSlider = ({ data, error, loading, projects, title, number }) => {
+const ServiceSlider = ({
+  services,
+  error,
+  loading,
+  projects,
+  title,
+  number,
+}) => {
   return (
     <div className="section">
+      <p className="sectionTitle">Services</p>
       <Swiper
         slidesPerView={3}
         spaceBetween={10}
@@ -49,7 +62,7 @@ const ServiceSlider = ({ data, error, loading, projects, title, number }) => {
           },
         }}
       >
-        {data?.map((value) => {
+        {services?.map((value) => {
           return (
             <SwiperSlide className={styles.slide} key={value.id}>
               <Link to={value.link} className={styles.link} key={value.id}>
