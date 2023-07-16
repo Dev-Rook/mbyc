@@ -13,7 +13,7 @@ const SocialBar = () => {
     <ul className={styles.social_bar}>
       {social?.map((value) => {
         return (
-          <li className={styles.list}>
+          <li className={styles.list} key={value.id}>
             <Link to={value.link} className={styles.link}>
               {value.name}
             </Link>

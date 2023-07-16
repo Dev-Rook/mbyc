@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Sailing",
+        "route": "/sailing",
+        "img": ""
+    },
+    {
+        "id": 2,
+        "name": "Berthing",
+        "route": "/berthing",
+        "img": ""
+    },
+    {
+        "id": 3,
+        "name": "Fishing",
+        "route": "/fishing",
+        "img": ""
+    },
+    {
+        "id": 4,
+        "name": "Facilities",
+        "route": "/facilities",
+        "img": ""
+    }
+]
