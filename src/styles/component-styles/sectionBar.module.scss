@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 20px;
+//   padding: 20px;
 
   height: 250px;
   width: 100%;
@@ -35,7 +35,8 @@
     font-weight: 400;
     font-size: bold;
     z-index: 2;
-    color: white;
+    margin-left: 20px;
+    color: black;
   }
 
   .link {
@@ -50,6 +51,8 @@
     align-items: center;
 
     padding: 10px 15px;
+    margin-right: 20px;
+
 
     z-index: 2;
 
@@ -59,8 +62,12 @@
 }
 
 @media only screen and (max-width: 450px) {
-    .section_bar {
-        flex-direction: column;
-        justify-content: space-evenly;
+  .section_bar {
+    flex-direction: column;
+    justify-content: space-evenly;
+    .title, .button {
+        margin-left: 0px;
+        margin-right: 0px;
     }
+  }
 }

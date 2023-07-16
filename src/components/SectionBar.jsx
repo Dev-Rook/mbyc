@@ -10,8 +10,9 @@ const SectionBar = ({ img, vid, route, text, button }) => {
       <div className={styles.section_bar}>
         <p className={styles.text}>{text}</p>
         <div className={styles.media_container}>
-          <img src={img} alt="" className={styles.media} />
+          <img src={""} alt="" className={styles.media} />
         </div>
+        <div className="diffuser"></div>
         <Link to={route} className={styles.link}>
           <button className={styles.button}>{button}</button>
         </Link>

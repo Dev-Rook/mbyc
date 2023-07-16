@@ -34,6 +34,19 @@
   width: 1800px;
 }
 
+.diffuser {
+  display: flex;
+  position: absolute;
+
+  z-index: 1;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+}
+
 .sectionTitle {
   font-size: 22px;
 }
