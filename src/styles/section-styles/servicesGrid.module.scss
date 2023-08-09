@@ -1,16 +1,16 @@
 .service_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   grid-gap: 10px;
 
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  // overflow: hidden;
 
   height: fit-content;
   width: 100%;
 
-  //   border: 1px solid black;
+    // border: 1px solid black;
 
   .card {
     display: flex;
@@ -20,10 +20,10 @@
     align-items: center;
     overflow: hidden;
 
-    height: 600px;
+    height: 380px;
     width: 100%;
 
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
 
     // border: 1px solid black;
     border-radius: 5px;
@@ -82,6 +82,21 @@
 
   .card:is(:hover) {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    transform: scale(.99);
+    transform: translateY(5px);
+    .imgContainer {
+      .img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .service_grid {
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  .card {
+    height: 400px;
+  }
+
   }
 }

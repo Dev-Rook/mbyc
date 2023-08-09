@@ -7,8 +7,8 @@
     },
     {
         "id": 2,
-        "name": "Berthing",
-        "route": "/berthing",
+        "name": "Visiting",
+        "route": "/visiting",
         "img": ""
     },
     {

@@ -7,6 +7,7 @@ import BillBoard from "../components/BillBoard";
 // Section Import:
 import Hero from "../section/Hero";
 import ServicesGrid from "../section/ServicesGrid";
+import MembershipSlider from "../section/MembershipSlider";
 
 // Media Import:
 import chop from "../assets/images/Round-Hill-Breakers.jpg";
@@ -21,12 +22,7 @@ const Index = () => {
     <div className="page">
       <Hero />
       <ServicesGrid />
-      <SectionBar
-        img={chop}
-        text={"About Us"}
-        button={"About Us"}
-        route={"/about"}
-      />
+      <MembershipSlider />
       <BillBoard subtitle={subtitle} title={title} media={media} />
     </div>
   );
