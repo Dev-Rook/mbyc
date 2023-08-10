@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Home",
+        "route": "/"
+    },
+    {
+        "id": 1,
+        "name": "Sailing",
+        "route": "/sailing"
+    },
+    {
+        "id": 1,
+        "name": "Visit",
+        "route": "/visit"
+    },
+    {
+        "id": 1,
+        "name": "Membership",
+        "route": "/membership"
+    },
+    {
+        "id": 1,
+        "name": "Contact",
+        "route": "/contact"
+    }
+]
